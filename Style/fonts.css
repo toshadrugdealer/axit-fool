@@ -1,0 +1,224 @@
+.navButtons h6 {
+  color: white;
+  font-size: 14px;
+}
+.headerForm h5 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.formButton h5 {
+  color: white;
+  font-size: 15px;
+}
+.formInput h6 {
+  font-size: 14px;
+  color: rgba(189, 189, 189, 1);
+}
+.mainText h1 {
+  font-size: 48px;
+  color: rgba(255, 255, 255, 1);
+}
+.mainText h5 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+}
+.downloadButton h5 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+.icons h4 {
+  font-size: 24px;
+  color: rgba(51, 51, 51, 1);
+}
+.icons h5 {
+  font-size: 18px;
+  color: rgba(134, 135, 139, 1);
+}
+.tabs123 {
+  font-size: 14px;
+  text-align: center;
+}
+.tabs h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.tabs h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+.tabsButton {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+.tabsAbout h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.awesomeLorem {
+  font-size: 18px;
+  font-weight: 400;
+}
+.group1 h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.group1 h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.group2 h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.group2 h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.group3 h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.group3 h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pricing h2 {
+  font-size: 36px;
+}
+.pricing h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.basic h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 700;
+}
+.basic h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 36px;
+  font-weight: 700;
+}
+.freeH {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.basic h5 {
+  color: rgba(134, 135, 139, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+.optima h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 700;
+}
+.optima h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 36px;
+  font-weight: 700;
+}
+.freeH {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.optima h5 {
+  color: rgba(134, 135, 139, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+.pro h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 700;
+}
+.pro h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 36px;
+  font-weight: 700;
+}
+.freeH {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.pro h5 {
+  color: rgba(134, 135, 139, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+.reviews h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.reviews h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(134, 135, 139, 1);
+}
+.boxReviews {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(134, 135, 139, 1);
+}
+.davis h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.manager {
+  font-size: 18px;
+  font-weight: 400;
+}
+.jaydon h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.cooper h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.banner h2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 36px;
+  font-weight: 400;
+}
+.banner h5 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+.bannerButton {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+}
+.contact h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.contact h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(134, 135, 139, 1);
+}
+.contact h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(189, 189, 189, 1);
+}
+.contactButton {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+.footer h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}

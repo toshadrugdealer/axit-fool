@@ -1,0 +1,927 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* navigation */
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: 75px;
+  width: 1510px;
+  position: relative;
+}
+.axImg {
+  height: 30px;
+  width: 51px;
+  position: absolute;
+  top: 22px;
+  left: 115px;
+}
+.itImg {
+  height: 30px;
+  width: 32px;
+  position: absolute;
+  left: 170px;
+  top: 22px;
+}
+
+.navFeatures {
+  position: absolute;
+  left: 770px;
+  top: 30.5px;
+}
+.navAbout {
+  position: absolute;
+  left: 883.8px;
+  top: 30.5px;
+}
+.navPricing {
+  position: absolute;
+  left: 997.6px;
+  top: 30.5px;
+}
+.navReviews {
+  position: absolute;
+  left: 1112.4px;
+  top: 30.5px;
+}
+.navContact {
+  position: absolute;
+  left: 1226.2px;
+  top: 30.5px;
+}
+/* Main Block */
+
+.mainBlock {
+  height: 951px;
+  width: 1510px;
+  position: absolute;
+  top: 75px;
+  left: 0;
+}
+.imgSity {
+  height: 1026px;
+  width: 1510px;
+}
+.imgBg {
+  height: 1026px;
+  width: 1510px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logoAx {
+  position: absolute;
+  top: 208px;
+  left: 170px;
+  height: 55px;
+  width: 102px;
+}
+.logoIt {
+  position: absolute;
+  top: 208px;
+  left: 277px;
+  height: 55px;
+  width: 63px;
+}
+.mainText h1 {
+  position: absolute;
+  top: 359px;
+  left: 170px;
+  height: 168px;
+  width: 670px;
+}
+.separator {
+  position: absolute;
+  top: 657px;
+  left: 170px;
+  width: 170px;
+  height: 0;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.mainText h5 {
+  position: absolute;
+  top: 699px;
+  bottom: 285px;
+  left: 170px;
+  width: 270px;
+  height: 42px;
+}
+.downloadButton {
+  position: absolute;
+  top: 783px;
+  left: 170px;
+  width: 270px;
+  height: 58px;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+.downloadButton h5 {
+  position: absolute;
+  top: 18px;
+  left: 94px;
+}
+
+.form {
+  position: relative;
+  height: 450px;
+  width: 470px;
+  background-color: white;
+  position: absolute;
+  left: 870px;
+  top: 283px;
+  border-radius: 10px;
+}
+.headerForm h5 {
+  position: absolute;
+  top: 33px;
+  left: 91px;
+}
+.spanFree {
+  color: rgba(236, 121, 121, 1);
+}
+.formInput {
+  position: relative;
+  position: absolute;
+  left: 50px;
+  top: 135px;
+}
+.inputName {
+  width: 370px;
+  height: 38px;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  margin-bottom: 30px;
+}
+.inputEmail {
+  width: 370px;
+  height: 38px;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  margin-bottom: 30px;
+}
+.inputPassword {
+  width: 370px;
+  height: 38px;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+.formButton {
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(236, 121, 121, 1);
+  width: 470px;
+  height: 60px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.formButton h5 {
+  position: absolute;
+  top: 22.5px;
+  left: 205px;
+}
+
+/* Icons */
+.icons {
+  width: 1510px;
+  height: 140px;
+  background-color: rgba(248, 239, 239, 1);
+  position: absolute;
+  top: 1024px;
+  left: 0;
+}
+.icons h4 {
+  position: absolute;
+  left: 170px;
+  top: 26px;
+}
+.icons h5 {
+  position: absolute;
+  top: 80px;
+  left: 170px;
+  width: 470px;
+  height: 42px;
+}
+.imgFacebook {
+  width: 30px;
+  height: 55px;
+  position: absolute;
+  top: 42px;
+  left: 690px;
+}
+.imgTwitter {
+  width: 57px;
+  height: 46px;
+  position: absolute;
+  top: 46px;
+  left: 776px;
+}
+.imgLinkedin {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 43px;
+  left: 879px;
+}
+.imgPinterest {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  top: 41px;
+  left: 976px;
+}
+.imgInstagram {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 35px;
+  left: 1079px;
+}
+.imgGithub {
+  width: 58px;
+  height: 56px;
+  position: absolute;
+  top: 41px;
+  left: 1176px;
+}
+.imgRss {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 35px;
+  left: 1282px;
+}
+
+/* Tabs */
+
+.tabsAbout {
+  width: 1510px;
+  height: 1552px;
+  border: 1px solid rgba(198, 203, 205, 1);
+  position: absolute;
+  top: 1164px;
+  left: 0;
+}
+.tabs {
+  width: 1170px;
+  height: 501px;
+  position: absolute;
+  top: 138px;
+  left: 170px;
+  border: 1px solid rgba(198, 203, 205, 1);
+  border-top: none;
+}
+.tab1 {
+  width: 203px;
+  height: 40px;
+  padding-top: 14px;
+  border: 1px solid rgba(198, 203, 205, 1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+  position: absolute;
+  top: 99px;
+  left: 170px;
+}
+.tab2 {
+  width: 184px;
+  height: 40px;
+  padding-top: 14px;
+  position: absolute;
+  top: 99px;
+  left: 373px;
+}
+.tab3 {
+  width: 184px;
+  height: 40px;
+  padding-top: 14px;
+  position: absolute;
+  top: 99px;
+  left: 557px;
+}
+.tabsLine {
+  width: 967px;
+  height: 0;
+  border-top: 1px solid rgba(198, 203, 205, 1);
+  position: absolute;
+  top: 138px;
+  left: 373px;
+}
+.statue {
+  width: 470px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.tabs h3 {
+  width: 570px;
+  height: 124px;
+  position: absolute;
+  top: 47px;
+  left: 100px;
+}
+.tabs h5 {
+  width: 570px;
+  height: 210px;
+  position: absolute;
+  top: 151px;
+  left: 100px;
+}
+.tabs p {
+  padding-bottom: 14px;
+}
+.tabsButton {
+  width: 270px;
+  height: 58px;
+  background-color: rgba(236, 121, 121, 1);
+  text-align: center;
+  padding: 17px;
+  position: absolute;
+  top: 388px;
+  left: 100px;
+}
+
+/* about */
+.tabsAbout h2 {
+  position: absolute;
+  top: 746px;
+  left: 554px;
+}
+.separatorGroup {
+  position: absolute;
+  top: 839px;
+  left: 669px;
+  width: 170px;
+  height: 0;
+  border: 1px solid rgba(236, 121, 121, 1);
+}
+.awesomeLorem {
+  position: absolute;
+  top: 879px;
+  left: 553px;
+}
+.group {
+  width: 1170px;
+  height: 344px;
+  position: absolute;
+  top: 1010px;
+  left: 171px;
+}
+.group1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 370px;
+  height: 344px;
+}
+.group1 h4 {
+  position: absolute;
+  bottom: 150px;
+  left: 88px;
+}
+.group1 h5 {
+  position: absolute;
+  bottom: 0;
+}
+.lamp {
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
+}
+.borderImg1 {
+  position: absolute;
+  left: 139px;
+  width: 92px;
+  height: 92px;
+  border: 1px solid rgba(236, 121, 121, 1);
+  border-radius: 50%;
+}
+.group2 {
+  position: absolute;
+  left: 405px;
+  top: 0;
+  text-align: center;
+  width: 370px;
+  height: 344px;
+}
+.group2 h4 {
+  position: absolute;
+  bottom: 150px;
+  left: 88px;
+}
+.group2 h5 {
+  position: absolute;
+  bottom: 0;
+}
+.keyboard {
+  width: 66px;
+  height: 46px;
+  margin-top: 23px;
+}
+.borderImg2 {
+  position: absolute;
+  left: 139px;
+  width: 92px;
+  height: 92px;
+  border: 1px solid rgba(236, 121, 121, 1);
+  border-radius: 50%;
+}
+
+.group3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  width: 370px;
+  height: 344px;
+}
+.group3 h4 {
+  position: absolute;
+  bottom: 150px;
+  left: 88px;
+}
+.group3 h5 {
+  position: absolute;
+  bottom: 0;
+}
+.lightning {
+  width: 44px;
+  height: 66px;
+  margin-top: 13px;
+}
+.borderImg3 {
+  position: absolute;
+  left: 139px;
+  width: 92px;
+  height: 92px;
+  border: 1px solid rgba(236, 121, 121, 1);
+  border-radius: 50%;
+}
+/* Pricing */
+
+.pricing {
+  position: absolute;
+  top: 2576px;
+  width: 1510px;
+  height: 900px;
+  background-color: rgba(245, 245, 245, 1);
+}
+.pricing h2 {
+  position: absolute;
+  top: 82px;
+  left: 591px;
+}
+
+.separatorPricing {
+  position: absolute;
+  top: 200px;
+  left: 669px;
+  width: 170px;
+  height: 0;
+  border: 1px solid rgba(236, 121, 121, 1);
+}
+.pricing h5 {
+  position: absolute;
+  top: 242px;
+  left: 554px;
+}
+.basic {
+  width: 370px;
+  height: 510px;
+  position: absolute;
+  top: 2916px;
+  left: 168px;
+}
+.basic h4 {
+  padding-top: 18px;
+  width: 370px;
+  height: 60px;
+  background: rgba(51, 51, 51, 1);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+.basic h3 {
+  padding-top: 26px;
+  width: 370px;
+  height: 100px;
+  background: rgba(51, 51, 51, 1);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+.freeH {
+  padding-top: 10px;
+  width: 370px;
+  height: 50px;
+  background: rgba(51, 51, 51, 1);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+.basic h5 {
+  padding-top: 12px;
+  width: 370px;
+  height: 50px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+.optima {
+  width: 370px;
+  height: 510px;
+  position: absolute;
+  top: 2896px;
+  left: 568px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.optima h4 {
+  padding-top: 18px;
+  width: 370px;
+  height: 60px;
+  background: rgba(51, 51, 51, 1);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+.optima h3 {
+  padding-top: 26px;
+  width: 370px;
+  height: 100px;
+  background: rgba(51, 51, 51, 1);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+/* .freeH {
+  padding-top: 10px;
+  width: 370px;
+  height: 50px;
+  background: rgb(103, 103, 103);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+} */
+.optima h5 {
+  padding-top: 12px;
+  width: 370px;
+  height: 50px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+.pro {
+  width: 370px;
+  height: 510px;
+  position: absolute;
+  top: 2916px;
+  left: 968px;
+}
+.pro h4 {
+  padding-top: 18px;
+  width: 370px;
+  height: 60px;
+  background: rgba(51, 51, 51, 1);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+.pro h3 {
+  padding-top: 26px;
+  width: 370px;
+  height: 100px;
+  background: rgba(51, 51, 51, 1);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+/* .freeH {
+  padding-top: 10px;
+  width: 370px;
+  height: 50px;
+  background: rgb(103, 103, 103);
+  text-align: center;
+  border: 2px solid rgba(245, 245, 245, 1);
+} */
+.pro h5 {
+  padding-top: 12px;
+  width: 370px;
+  height: 50px;
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid rgba(245, 245, 245, 1);
+}
+
+/* Reviews */
+
+.reviews {
+  width: 1510px;
+  height: 744px;
+  position: absolute;
+  top: 3476px;
+}
+.reviews h2 {
+  position: absolute;
+  top: 107px;
+  left: 438px;
+}
+.separatorReviews {
+  position: absolute;
+  top: 200px;
+  left: 669px;
+  width: 170px;
+  height: 0;
+  border: 1px solid rgba(236, 121, 121, 1);
+}
+.reviews h5 {
+  position: absolute;
+  top: 240px;
+  left: 554px;
+}
+.davis {
+  position: absolute;
+  width: 370px;
+  height: 336px;
+  top: 344px;
+  left: 170px;
+}
+.boxReviews {
+  width: 370px;
+  height: 180px;
+  background: rgba(226, 226, 226, 1);
+  border-radius: 10px;
+  padding: 38px;
+  text-align: center;
+}
+.triangle {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  left: 40px;
+}
+.iconsManager {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 211px;
+}
+.davis h4 {
+  position: absolute;
+  left: 100px;
+  top: 224px;
+}
+.manager {
+  position: absolute;
+  top: 280px;
+  left: 100px;
+}
+.jaydon {
+  position: absolute;
+  width: 370px;
+  height: 336px;
+  top: 344px;
+  left: 570px;
+}
+.boxReviews {
+  width: 370px;
+  height: 180px;
+  background: rgba(226, 226, 226, 1);
+  border-radius: 10px;
+  padding: 38px;
+  text-align: center;
+}
+.triangle {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  left: 40px;
+}
+.iconsManager {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 211px;
+}
+.jaydon h4 {
+  position: absolute;
+  left: 100px;
+  top: 224px;
+}
+.manager {
+  position: absolute;
+  top: 280px;
+  left: 100px;
+}
+.cooper {
+  position: absolute;
+  width: 370px;
+  height: 336px;
+  top: 344px;
+  left: 970px;
+}
+.boxReviews {
+  width: 370px;
+  height: 180px;
+  background: rgba(226, 226, 226, 1);
+  border-radius: 10px;
+  padding: 38px;
+  text-align: center;
+}
+.triangle {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  left: 40px;
+}
+.iconsManager {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 211px;
+}
+.cooper h4 {
+  position: absolute;
+  left: 100px;
+  top: 224px;
+}
+.manager {
+  position: absolute;
+  top: 280px;
+  left: 100px;
+}
+
+/* Banner */
+
+.banner {
+  position: absolute;
+  top: 4220px;
+  width: 1510px;
+  height: 442px;
+}
+.bg2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1510px;
+  height: 442px;
+}
+.sityBanner {
+  width: 1510px;
+  height: 442px;
+}
+.banner h2 {
+  position: absolute;
+  top: 117px;
+  left: 554px;
+}
+.separatorBanner {
+  position: absolute;
+  top: 200px;
+  left: 670px;
+  width: 170px;
+  height: 0;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.banner h5 {
+  position: absolute;
+  top: 240px;
+  left: 398px;
+}
+.bannerButton {
+  position: absolute;
+  bottom: 50px;
+  left: 570px;
+  width: 370px;
+  height: 58px;
+  padding-top: 15px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+/* contact */
+
+.contact {
+  position: absolute;
+  top: 4662px;
+  width: 1510px;
+  height: 762px;
+}
+.contact h2 {
+  position: absolute;
+  top: 107px;
+  left: 644px;
+}
+.separatorContact {
+  position: absolute;
+  top: 200px;
+  left: 670px;
+  width: 170px;
+  border: 1px solid rgba(236, 121, 121, 1);
+}
+.contact h5 {
+  position: absolute;
+  top: 260px;
+  left: 554px;
+}
+.contactName {
+  position: absolute;
+  top: 350px;
+  left: 169px;
+  width: 571px;
+  height: 35px;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+.contactEmail {
+  position: absolute;
+  top: 435px;
+  left: 169px;
+  width: 571px;
+  height: 35px;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+.contactPassword {
+  position: absolute;
+  top: 520px;
+  left: 169px;
+  width: 571px;
+  height: 35px;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+.contactMessage {
+  position: absolute;
+  top: 350px;
+  left: 770px;
+  width: 571px;
+  height: 205px;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+.contactButton {
+  position: absolute;
+  bottom: 50px;
+  left: 570px;
+  padding-top: 18px;
+  text-align: center;
+  width: 370px;
+  height: 58px;
+  background: rgba(236, 121, 121, 1);
+}
+
+/* footer  */
+
+.footer {
+  position: absolute;
+  top: 5424px;
+  left: 0;
+  width: 1510px;
+  height: 164px;
+  background: black;
+}
+.footer h5 {
+  position: absolute;
+  bottom: 27px;
+  left: 673px;
+}
+.footerFacebook {
+  position: absolute;
+  top: 40px;
+  left: 485px;
+  width: 23px;
+  height: 42px;
+}
+.footerTwitter {
+  position: absolute;
+  top: 45px;
+  left: 560px;
+  width: 43px;
+  height: 35px;
+}
+.footerLinkedin {
+  position: absolute;
+  top: 40px;
+  left: 648px;
+  width: 40px;
+  height: 40px;
+}
+.foooterPinterest {
+  position: absolute;
+  top: 40px;
+  left: 732px;
+  width: 44px;
+  height: 44px;
+}
+.footerInstagram {
+  position: absolute;
+  top: 35px;
+  left: 820px;
+  width: 50px;
+  height: 50px;
+}
+.footerGithub {
+  position: absolute;
+  top: 40px;
+  left: 904px;
+  width: 44px;
+  height: 44px;
+}
+.footerRss {
+  position: absolute;
+  top: 35px;
+  left: 995px;
+  width: 50px;
+  height: 50px;
+}
